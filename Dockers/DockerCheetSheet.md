@@ -1,0 +1,105 @@
+
+## Stops a current running container.
+    $ docker stop (CONTAINER)
+
+## Enabling and Starting Docker in CentOS 7 as root
+    $ sudo systemctl enable docker
+    $ sudo systemctl start docker
+
+## To know about docker version
+   $ docker --version
+
+## Show what images are installed
+    $ docker images
+
+## To run the specified container
+    $ docker run (PACKAGE:VERSION or IMAGE ID)
+
+## Stops a current running container.
+    $ docker stop (CONTAINER)
+
+## The software used to run a Docker image is called as
+    Base Image
+
+## This will specify the address and port to bind a user's container to running in the background.
+
+    $ docker run -d -p (ADDRESS AND PORT) (BASE IMAGE)
+
+## Starts and renames specified container.
+    $ docker run (FLAG) --name=(NEW NAME) (CONTAINER)
+
+## Shows current running Docker containers.
+    $ docker ps
+
+## A container that immediately exits when finished is called
+    Ephemeral Containers
+
+## Shuts down then starts specified container.
+    $ docker restart (CONTAINER)
+
+## Starts a container, in the background, with it's ports forwarded to the localhost though randomly picked local ports in the 32768 to 65000 range.
+    $ docker -d -P (BASE IMAGE)
+
+## Add specified user to the docker group in order for the user to run docker
+    $usermod -a -G docker (USER NAME)
+    Log out as that user, then log back in.
+
+## To remove all containers listed from a docker ps -a -q command, which will be all the non-running containers.
+    $ docker rm `docker ps -a -q`
+
+## Prints a list of Docker containers that were recently run and when they were run.
+    $ docker ps -a
+
+## Starts specified container
+    $ docker start (CONTAINER)
+
+## Creates an easy to read, easy to write, user base image.
+    Dockerfile
+
+## Docker Hub
+
+  A primary repository for public images, where a user with a Docker Hub account can host multiple public repositories or one private repository for free.
+  An account holding user can also download other user's public images.
+
+## Docker Minimum Requirements
+
+  Linux system running 64 bit
+  Kernal 3.10 or higher
+  $ uname -r , in a terminal will echo your kernal version
+  and $ cat /etc/issue will tell you your linux flavers and its version
+
+## Removes a container or multiple containers from a local system.
+    $ docker rmi (CONTAINER or Id) (CONTAINER or ID)
+
+## Pull one or more snapshots i order to build the base image and store it on a user's local system.
+    $ docker pull (PACKAGE)
+
+## Display information of the specified image in JSON format.   
+    $ docker inspect (PACKAGE NAME)
+
+## Shows current running Docker containers.
+    $ docker ps
+
+## This command removes base images (rmi) that weren't used with any containers.
+    $ docker rmi (BASE IMAGE)
+
+## Creates a container running in the background with a volume (-v) mounting point that can be mounted while the container is running.
+    $ docker run -d -v (MOUNT POINT) (BASE IMAGE)
+
+## Will search Docker Hub, from a terminal, for the key word a user is searching for.
+    $ docker search (KEY WORD)
+
+## Starts specified container disconnected (-d) or in other words, in the background, then executes (-e) the argument. The container will continue to run as long as the argument is running, as soon as the argument stops the container will exit.
+    $ docker -d (CONTAINER) (COMMAND) -e (ARGUMENT)
+
+## Starts a container in interactive mode (-i) attached to the terminal (-t) and runs specified command.
+    $ docker run -it (CONTAINER) (COMMAND)
+
+## Will show stored Docker images on you computer.
+    $ docker images
+
+## Will force (-f) the removal of a base images, even images that have been run with containers.
+    $ docker rmi -f (BASE IMAGE)
+
+## Executes a command in a running container and when done, is able to exit the command without stopping the container .
+    $ docker exec (FLAGS) (CONTAINER) (COMMAND)

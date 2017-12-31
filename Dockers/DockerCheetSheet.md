@@ -47,6 +47,43 @@
 ## To remove all containers listed from a docker ps -a -q command, which will be all the non-running containers.
     $ docker rm `docker ps -a -q`
 
+## Purging All Unused or Dangling Images, Containers, Volumes, and Networks
+    $ docker system prune
+
+## Removing Docker Images
+  List
+    $ docker images -a
+  Remove
+    $ docker rmi Image Image
+
+## Remove dangling images  
+    $ docker images -f dangling=true
+    $ docker images purge
+
+## Remove all images
+    $ docker images -a
+    $ docker rmi $(docker images -a -q)
+
+## Removing Containers
+    $ docker ps -a
+    $ docker rm ID_or_Name ID_or_Name
+
+## Run and Remove:
+    $ docker run --rm image_name
+
+## Stop and remove all containers
+    $ docker ps -a
+    $ docker stop $(docker ps -a -q)
+    $ docker rm $(docker ps -a -q)
+
+## Removing Volumes
+    $ docker volume ls
+    $ docker volume rm volume_name volume_name
+
+## Remove dangling volumes
+    $ docker volume ls -f dangling=true
+    $ docker volume prune
+
 ## Prints a list of Docker containers that were recently run and when they were run.
     $ docker ps -a
 
@@ -103,3 +140,8 @@
 
 ## Executes a command in a running container and when done, is able to exit the command without stopping the container .
     $ docker exec (FLAGS) (CONTAINER) (COMMAND)
+
+
+References :
+1. https://linuxacademy.com
+2.https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#a-docker-cheat-sheet

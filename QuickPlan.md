@@ -1,8 +1,7 @@
 ## Plan for the Session
 
-- 09-30 To 09-45 - Introduction to Devops
--
-### Session 1 ( 09-30 to 11:00 )  1.5 Hrs
+
+### Session 1
 #### Docker Quick Start
     - Installation and Configuration
     - The Docker Hub
@@ -14,7 +13,7 @@
     - The Dockerfile
     - Where Do I Go from Here?
 
-### Session 2 ( 11-30 to 01:00 )   1.5 Hrs
+### Session 2
 #### Ansible Quick Start
 
     - Installation and Configuration
@@ -26,8 +25,7 @@
     - Debug Statement
     - Notifications and Handlers
 
-
-### Session 3 ( 02-00 to 03:30 )   1.5 Hrs
+### Session 3
 #### Jenkins Quick Start
     - Installation and Configuration
     - Preparing Our Environment - Build Accounts

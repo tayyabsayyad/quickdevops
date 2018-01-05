@@ -31,14 +31,21 @@
 ## Jenkins Quick Start
 
 [1. Installation and Configuration](Jenkins/1.Install_Config.md)
+
 [2. Our First Jenkins Build](Jenkins/2.FirstBuild.md)
+
 [3. Plugin Management and Builds](Jenkins/3.PluginManagement.md)
+
 [4. Creating Scheduled Builds](Jenkins/4.CreatingScheduledBuilds.md)
 
 ## Ansible Quick Start
 
 [1. Installation and Configuration](Ansible/1.InstallConfig.md)
+
 [2. Ansible Documentation](Ansible/2.ansible_documentation.md)
+
 [3. Running Ansible Commands](Ansible/3.AnsibleCommands.md)
+
 [4. Playbook Structure with YAML](Ansible/4.playbookStructure.md))
+
 [5. Gathering Facts](Ansible/5.GatheringFacts.md)

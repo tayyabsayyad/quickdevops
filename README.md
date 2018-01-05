@@ -1,4 +1,4 @@
-# DevOps Session - STTP on Open Source technologies for Engg Educaation
+# DevOps Session - STTP on Open Source technologies for Engg Education
 
 ## Presentations and Documents
 
@@ -14,7 +14,7 @@
 
 [2. The Docker Hub](Dockers/2.DockerHub.md)
 
-[3. Base Images](Dockers/3.BaseImages.ms)
+[3. Base Images](Dockers/3.BaseImages.md)
 
 [4. Running Containers](Dockers/4.RunningContainers.md)
 
@@ -30,15 +30,15 @@
 
 ## Jenkins Quick Start
 
-1. Installation and Configuration
-2. Our First Jenkins Build
-3. Plugin Management and Builds
-4. Creating Scheduled Builds
+[1. Installation and Configuration](Jenkins/1.Install_Config.md)
+[2. Our First Jenkins Build](Jenkins/2.FirstBuild.md)
+[3. Plugin Management and Builds](Jenkins/3.PluginManagement.md)
+[4. Creating Scheduled Builds](Jenkins/4.CreatingScheduledBuilds.md)
 
 ## Ansible Quick Start
 
-1. Installation and Configuration
-2. Ansible Documentation
-3. Running Ansible Commands
-4. Playbook Structure with YAML
-5. Gathering Facts
+[1. Installation and Configuration](Ansible/1.InstallConfig.md)
+[2. Ansible Documentation](Ansible/2.ansible_documentation.md)
+[3. Running Ansible Commands](Ansible/3.AnsibleCommands.md)
+[4. Playbook Structure with YAML](Ansible/4.playbookStructure.md))
+[5. Gathering Facts](Ansible/5.GatheringFacts.md)

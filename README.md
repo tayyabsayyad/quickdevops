@@ -1,11 +1,11 @@
 # DevOps Session - STTP on Open Source technologies for Engg Educaation
 
 ## Presentations and Documents
-[1. Introduction to the Course](../Presentations/0.course.pdf)
+[1. Introduction to the Course](Presentations/0.course.pdf)
 
-[2. Introduction to DevOps technologies](../Presentations/1.intro.pdf)
+[2. Introduction to DevOps technologies](Presentations/1.intro.pdf)
 
-[3. Introduction to Ansible](2.ansible.pdf)
+[3. Introduction to Ansible](Presentations/2.ansible.pdf)
 
 ## Docker Quick Start
 

@@ -1,9 +1,11 @@
 # DevOps Session - STTP on Open Source technologies for Engg Educaation
 
-
-
 ## Presentations and Documents
-1.
+[1. Introduction to the Course](../Presentations/0.course.pdf)
+
+[2. Introduction to DevOps technologies](../Presentations/1.intro.pdf)
+
+[3. Introduction to Ansible](2.ansible.pdf)
 
 ## Docker Quick Start
 
@@ -24,9 +26,6 @@
 2. Our First Jenkins Build
 3. Plugin Management and Builds
 4. Creating Scheduled Builds
-5. Setting Up a Build Slave
-6. Launching Jobs on the Slave Node
-7. Where Do I Go from Here?
 
 ## Ansible Quick Start
 
@@ -35,6 +34,3 @@
 3. Running Ansible Commands
 4. Playbook Structure with YAML
 5. Gathering Facts
-6. Variable Substitution
-7. Debug Statement
-8. Notifications and Handlers

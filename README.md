@@ -1,8 +1,6 @@
-# quickdevops
-Quick DevOps
+# DevOps Session - STTP on Open Source technologies for Engg Educaation
 
-
-Docker Quick Start
+# Docker Quick Start
 
 1. Installation and Configuration
 2. The Docker Hub
@@ -15,12 +13,23 @@ Docker Quick Start
 9. Where Do I Go from Here?
 
 
-Jenkins Quick Start
+## Jenkins Quick Start
 
-- Installation and Configuration
-- Our First Jenkins Build
-- Plugin Management and Builds
-- Creating Scheduled Builds
-- Setting Up a Build Slave
-- Launching Jobs on the Slave Node
-- Where Do I Go from Here?
+1. Installation and Configuration
+2. Our First Jenkins Build
+3. Plugin Management and Builds
+4. Creating Scheduled Builds
+5. Setting Up a Build Slave
+6. Launching Jobs on the Slave Node
+7. Where Do I Go from Here?
+
+## Ansible Quick Start
+
+1. Installation and Configuration
+2. Ansible Documentation
+3. Running Ansible Commands
+4. Playbook Structure with YAML
+5. Gathering Facts
+6. Variable Substitution
+7. Debug Statement
+8. Notifications and Handlers

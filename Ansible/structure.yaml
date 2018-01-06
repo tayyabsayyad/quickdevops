@@ -1,0 +1,20 @@
+--- # This is a structure example to install httpd on ubuntu 
+
+- hosts: ubuntu 
+  remote_user: ansible
+  become: yes
+  become_method: sudo 
+  connection: ssh
+  gather_factcs: yes
+  vars: 
+    userName:myuser
+  tasks:   
+  - name: Install HTTPD server on ubunutu server
+    apt: name:apache2 state:latest
+    notify:
+    - startservice 
+  handlers:
+   - name : startservice
+     service: name:apache2 state:restarted
+ 
+   

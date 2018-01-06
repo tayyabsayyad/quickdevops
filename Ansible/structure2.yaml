@@ -1,0 +1,23 @@
+---
+ 
+- hosts: ubuntu # hosts to be configured
+ 
+sudo: yes # sudo permissions
+ 
+tasks:
+ 
+- name: update
+ 
+apt: update_cache=yes
+ 
+- name: install apache2
+ 
+apt: name=apache2 state=present
+ 
+- name: restart apache2
+ 
+service: name=apache2 state=restarted
+ 
+- debug: msg="apache has been installed"
+ 
+...
